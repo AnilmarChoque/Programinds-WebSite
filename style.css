@@ -7,11 +7,9 @@ body {
     margin: 0;
     padding: 0;
 
-    background: #251ab5; 
-
-    /*background: linear-gradient(45deg, #251ab5, #251ab5, #0f5cea, #0f5cea);
+    background: linear-gradient(45deg, #251ab5, #251ab5, #0f5cea, #0f5cea);
     background-size: 300% 300%;
-    animation: colors 3s ease infinite;*/
+    animation: colors 3s ease infinite;
 }
 /*---------------------------------FONTES---------------------------------*/
 

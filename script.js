@@ -52,7 +52,7 @@ window.addEventListener('scroll', function() {
     if (scrolled === 0) {
       logo.src = './img/Logo.png';
     } else {
-      logo.src = './img/LogoBlack.png';
+      logo.src = './img/LogoPurble.png';
     }
   });
   

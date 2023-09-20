@@ -45,6 +45,18 @@ window.addEventListener('scroll', function() {
       navitem3.classList.remove('branco');
     }
   });
+
+  window.addEventListener('scroll', function() {
+    var navitem4 = document.querySelector('.nav-item4');
+    var scrolled = window.scrollY;
+    if (scrolled === 0) {
+      navitem4.classList.add('branco');
+      navitem4.classList.remove('purble');  
+    } else {
+      navitem4.classList.add('purble');
+      navitem4.classList.remove('branco');
+    }
+  });
   
   window.addEventListener('scroll', function() {
     var logo = document.querySelector('.logo');
